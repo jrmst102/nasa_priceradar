@@ -1,0 +1,12 @@
+# Example config for NYC demo
+stores_csv: "${MANCINO_PATH}/data/stores/stores.csv"
+prices_csv: "${MANCINO_PATH}/data/prices/daily_prices.csv"
+event_start: "2025-09-27"
+event_end: "2025-10-02"
+imerg_path: "data/imerg_24h_accum.tif"
+baseline_days: 28
+precipitation_threshold_mm_24h: 50.0
+outdir: "out"
+alpha_zmad: 4.0
+beta_pct: 0.25
+crs_epsg: 4326

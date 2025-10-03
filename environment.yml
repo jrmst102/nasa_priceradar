@@ -1,0 +1,17 @@
+name: nasa_priceradar
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - pandas
+  - numpy
+  - geopandas
+  - shapely
+  - rasterio
+  - rioxarray
+  - xarray
+  - pip
+  - pip:
+      - folium
+      - pyyaml
+      - tqdm
