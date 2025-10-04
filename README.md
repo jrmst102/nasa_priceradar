@@ -1,5 +1,11 @@
-# NASA PriceRadar 🚨🌧️
+# NASA PriceRadar
 **Prototype 1: Storm → Price Anomaly Radar**
+
+NASA Space Apps Challenge
+School of Professional Studies
+New York University
+October 3rd, 2025
+Prof. Jose Mendoza
 
 Detect potential **price-gouging signals** around storms by combining **retail prices** with **NASA IMERG precipitation**.  
 This repository contains the code only. Your **Mancino** repository holds the data.
