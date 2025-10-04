@@ -7,8 +7,8 @@ event_end:   "2025-08-24"   # last available date
 imerg_path: "data/imerg_24h_accum.tif"
 
 baseline_days: 28           # baseline = 2025-07-24 .. 2025-08-20 (covered by your data)
-precipitation_threshold_mm_24h: 50.0
-alpha_zmad: 4.0
-beta_pct: 0.25
+precipitation_threshold_mm_24h: 20.0
+alpha_zmad: 3.0
+beta_pct: 0.15
 crs_epsg: 4326
 outdir: "out"

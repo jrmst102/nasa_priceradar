@@ -1,0 +1,1757 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_48df4308c2f5a208873932cbc1d335fa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_48df4308c2f5a208873932cbc1d335fa" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_48df4308c2f5a208873932cbc1d335fa = L.map(
+                "map_48df4308c2f5a208873932cbc1d335fa",
+                {
+                    center: [40.73498475, -73.99287875],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 9,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a620e3ac61df9df7948ab3e5c6ede8f9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a620e3ac61df9df7948ab3e5c6ede8f9.addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+            var circle_marker_4bb9b9a60ebbea24050dae5696c02585 = L.circleMarker(
+                [40.733037, -73.99976],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_d5e54143559f33475d51dff0e94f4c91 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9133e48413954d5c7c21f8e131f6920c = $(`<div id="html_9133e48413954d5c7c21f8e131f6920c" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Greenwich Village</b><br>SKU: P00160<br>Price: 6.19 (baseline 3.59)<br>%Δ: 72.4 | z(MAD): 0.67<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_d5e54143559f33475d51dff0e94f4c91.setContent(html_9133e48413954d5c7c21f8e131f6920c);
+            
+        
+
+        circle_marker_4bb9b9a60ebbea24050dae5696c02585.bindPopup(popup_d5e54143559f33475d51dff0e94f4c91)
+        ;
+
+        
+    
+    
+            var circle_marker_7b63236220def24577835b5afadb94a5 = L.circleMarker(
+                [40.72139, -73.99545],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_8619e0e8cc5b911048d5747745d2eca3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_edff671638387f40e82fc0ab38c4a459 = $(`<div id="html_edff671638387f40e82fc0ab38c4a459" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Nolita</b><br>SKU: P01037<br>Price: 13.47 (baseline 10.11)<br>%Δ: 33.3 | z(MAD): 0.67<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_8619e0e8cc5b911048d5747745d2eca3.setContent(html_edff671638387f40e82fc0ab38c4a459);
+            
+        
+
+        circle_marker_7b63236220def24577835b5afadb94a5.bindPopup(popup_8619e0e8cc5b911048d5747745d2eca3)
+        ;
+
+        
+    
+    
+            var circle_marker_09b405d89e5170f6ab9315ef73ed7d7b = L.circleMarker(
+                [40.733037, -73.99976],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_fcd68993832c91b99e76339b6888fe6f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_568d420fd7e853811b47186fd21c7590 = $(`<div id="html_568d420fd7e853811b47186fd21c7590" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Greenwich Village</b><br>SKU: P01046<br>Price: 11.90 (baseline 12.06)<br>%Δ: -1.3 | z(MAD): -10.79<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_fcd68993832c91b99e76339b6888fe6f.setContent(html_568d420fd7e853811b47186fd21c7590);
+            
+        
+
+        circle_marker_09b405d89e5170f6ab9315ef73ed7d7b.bindPopup(popup_fcd68993832c91b99e76339b6888fe6f)
+        ;
+
+        
+    
+    
+            var circle_marker_0ecb506b51450b8b1882bc4661f457c7 = L.circleMarker(
+                [40.7266, -73.9917],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_27558c2e785ea6c68176c84f7cb3d642 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bf4ce5bb6726b6b047de107ca7bf6ce3 = $(`<div id="html_bf4ce5bb6726b6b047de107ca7bf6ce3" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - NoHo</b><br>SKU: P00156<br>Price: 4.94 (baseline 5.03)<br>%Δ: -1.8 | z(MAD): -6.07<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_27558c2e785ea6c68176c84f7cb3d642.setContent(html_bf4ce5bb6726b6b047de107ca7bf6ce3);
+            
+        
+
+        circle_marker_0ecb506b51450b8b1882bc4661f457c7.bindPopup(popup_27558c2e785ea6c68176c84f7cb3d642)
+        ;
+
+        
+    
+    
+            var circle_marker_c87ff66ffe864e2b0a1db2251d1ee4e3 = L.circleMarker(
+                [40.7266, -73.9917],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_76d03241bd41d2e98a6e37c80cb59d0e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c68b3ae08376aa245366fa0c215d7315 = $(`<div id="html_c68b3ae08376aa245366fa0c215d7315" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - NoHo</b><br>SKU: P01316<br>Price: 13.06 (baseline 13.33)<br>%Δ: -2.0 | z(MAD): -18.21<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_76d03241bd41d2e98a6e37c80cb59d0e.setContent(html_c68b3ae08376aa245366fa0c215d7315);
+            
+        
+
+        circle_marker_c87ff66ffe864e2b0a1db2251d1ee4e3.bindPopup(popup_76d03241bd41d2e98a6e37c80cb59d0e)
+        ;
+
+        
+    
+    
+            var circle_marker_35c62ba644b76e2d8566883a2b021ea0 = L.circleMarker(
+                [40.733037, -73.99976],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_f3ba2aa4693efc0098df0b937eb0c2bd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6f785e84afdf38420ffb6d25d7de4aa9 = $(`<div id="html_6f785e84afdf38420ffb6d25d7de4aa9" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Greenwich Village</b><br>SKU: P01401<br>Price: 9.46 (baseline 9.71)<br>%Δ: -2.6 | z(MAD): -16.86<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_f3ba2aa4693efc0098df0b937eb0c2bd.setContent(html_6f785e84afdf38420ffb6d25d7de4aa9);
+            
+        
+
+        circle_marker_35c62ba644b76e2d8566883a2b021ea0.bindPopup(popup_f3ba2aa4693efc0098df0b937eb0c2bd)
+        ;
+
+        
+    
+    
+            var circle_marker_20aacad562bd7fa36b560f65a95c9181 = L.circleMarker(
+                [40.75971, -73.96616],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_52b940b5148271f0206771d4fc7f3db0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_09402d2f02d1e73a4052e73f5ce0fe2b = $(`<div id="html_09402d2f02d1e73a4052e73f5ce0fe2b" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Midtown</b><br>SKU: P01322<br>Price: 9.19 (baseline 9.46)<br>%Δ: -2.9 | z(MAD): -18.21<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_52b940b5148271f0206771d4fc7f3db0.setContent(html_09402d2f02d1e73a4052e73f5ce0fe2b);
+            
+        
+
+        circle_marker_20aacad562bd7fa36b560f65a95c9181.bindPopup(popup_52b940b5148271f0206771d4fc7f3db0)
+        ;
+
+        
+    
+    
+            var circle_marker_126f55cbfc73b86455e2ee758b139fec = L.circleMarker(
+                [40.733037, -73.99976],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_9499533dc5a1c11d3c01ed8ad271da29 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5db40bab855e17b6949c364f2bcfd8cc = $(`<div id="html_5db40bab855e17b6949c364f2bcfd8cc" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Greenwich Village</b><br>SKU: P00945<br>Price: 3.92 (baseline 4.04)<br>%Δ: -3.0 | z(MAD): -8.09<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_9499533dc5a1c11d3c01ed8ad271da29.setContent(html_5db40bab855e17b6949c364f2bcfd8cc);
+            
+        
+
+        circle_marker_126f55cbfc73b86455e2ee758b139fec.bindPopup(popup_9499533dc5a1c11d3c01ed8ad271da29)
+        ;
+
+        
+    
+    
+            var circle_marker_c9defa75d6ed05dcce18e9f811e8e3f1 = L.circleMarker(
+                [40.733037, -73.99976],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_84a515b6dfe91f9f76b2d6d2a5a6a5e8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8e56ae7a4021f55e21190662c10d39fa = $(`<div id="html_8e56ae7a4021f55e21190662c10d39fa" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Greenwich Village</b><br>SKU: P01377<br>Price: 4.50 (baseline 4.64)<br>%Δ: -3.0 | z(MAD): -9.44<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_84a515b6dfe91f9f76b2d6d2a5a6a5e8.setContent(html_8e56ae7a4021f55e21190662c10d39fa);
+            
+        
+
+        circle_marker_c9defa75d6ed05dcce18e9f811e8e3f1.bindPopup(popup_84a515b6dfe91f9f76b2d6d2a5a6a5e8)
+        ;
+
+        
+    
+    
+            var circle_marker_6a829d104106ec09f552192bca3063b7 = L.circleMarker(
+                [40.7266, -73.9917],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_f0479381ee83a6d0412425545e332819 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4ce5b6eed9b3275cd745df97ae14fd18 = $(`<div id="html_4ce5b6eed9b3275cd745df97ae14fd18" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - NoHo</b><br>SKU: P00378<br>Price: 2.87 (baseline 2.96)<br>%Δ: -3.0 | z(MAD): -6.07<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_f0479381ee83a6d0412425545e332819.setContent(html_4ce5b6eed9b3275cd745df97ae14fd18);
+            
+        
+
+        circle_marker_6a829d104106ec09f552192bca3063b7.bindPopup(popup_f0479381ee83a6d0412425545e332819)
+        ;
+
+        
+    
+    
+            var circle_marker_5de2fbaed4d323100d8e9b66a9386f04 = L.circleMarker(
+                [40.742352, -74.00621],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_5862584cecb77c27fd8a7d2d5d342082 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7caba38adddb2e4284b3b262ca69c2c6 = $(`<div id="html_7caba38adddb2e4284b3b262ca69c2c6" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Chelsea</b><br>SKU: P01203<br>Price: 11.59 (baseline 12.07)<br>%Δ: -4.0 | z(MAD): -32.38<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_5862584cecb77c27fd8a7d2d5d342082.setContent(html_7caba38adddb2e4284b3b262ca69c2c6);
+            
+        
+
+        circle_marker_5de2fbaed4d323100d8e9b66a9386f04.bindPopup(popup_5862584cecb77c27fd8a7d2d5d342082)
+        ;
+
+        
+    
+    
+            var circle_marker_bd17f052efc896e5f07fbcd9b810deae = L.circleMarker(
+                [40.75971, -73.96616],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_e3be075dadc51cbe76b7632c084183ed = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_41e363316cbe1716b855c1ae925a130c = $(`<div id="html_41e363316cbe1716b855c1ae925a130c" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Midtown</b><br>SKU: P00627<br>Price: 2.92 (baseline 3.05)<br>%Δ: -4.3 | z(MAD): -8.77<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_e3be075dadc51cbe76b7632c084183ed.setContent(html_41e363316cbe1716b855c1ae925a130c);
+            
+        
+
+        circle_marker_bd17f052efc896e5f07fbcd9b810deae.bindPopup(popup_e3be075dadc51cbe76b7632c084183ed)
+        ;
+
+        
+    
+    
+            var circle_marker_ea2f54580b9346c1ca389096d4f6f6e3 = L.circleMarker(
+                [40.72139, -73.99545],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_c928045eb2ce05483f8545590575bb44 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a35af5deceb9de2449e2c8e344604948 = $(`<div id="html_a35af5deceb9de2449e2c8e344604948" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Nolita</b><br>SKU: P00974<br>Price: 8.21 (baseline 8.58)<br>%Δ: -4.3 | z(MAD): -24.96<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_c928045eb2ce05483f8545590575bb44.setContent(html_a35af5deceb9de2449e2c8e344604948);
+            
+        
+
+        circle_marker_ea2f54580b9346c1ca389096d4f6f6e3.bindPopup(popup_c928045eb2ce05483f8545590575bb44)
+        ;
+
+        
+    
+    
+            var circle_marker_7f4023c27d8846e37cc427701dba6654 = L.circleMarker(
+                [40.742352, -74.00621],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_8f864d0ad55828dfae89ee1c7ce4c0d1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0cf2cb0ef80ff160195bdbf0c5e23d07 = $(`<div id="html_0cf2cb0ef80ff160195bdbf0c5e23d07" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Chelsea</b><br>SKU: P00353<br>Price: 6.33 (baseline 6.65)<br>%Δ: -4.8 | z(MAD): -21.58<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_8f864d0ad55828dfae89ee1c7ce4c0d1.setContent(html_0cf2cb0ef80ff160195bdbf0c5e23d07);
+            
+        
+
+        circle_marker_7f4023c27d8846e37cc427701dba6654.bindPopup(popup_8f864d0ad55828dfae89ee1c7ce4c0d1)
+        ;
+
+        
+    
+    
+            var circle_marker_42d6e3eee02926647481408153d66f08 = L.circleMarker(
+                [40.72139, -73.99545],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_3f8c62daa21f04e73bcca822a8eec077 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_067734510dbabcccb0ce894a21935c48 = $(`<div id="html_067734510dbabcccb0ce894a21935c48" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Nolita</b><br>SKU: P01176<br>Price: 3.89 (baseline 4.09)<br>%Δ: -4.9 | z(MAD): -13.49<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_3f8c62daa21f04e73bcca822a8eec077.setContent(html_067734510dbabcccb0ce894a21935c48);
+            
+        
+
+        circle_marker_42d6e3eee02926647481408153d66f08.bindPopup(popup_3f8c62daa21f04e73bcca822a8eec077)
+        ;
+
+        
+    
+    
+            var circle_marker_7303b9221be12bd7154aa3c10e6511a3 = L.circleMarker(
+                [40.733037, -73.99976],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_660e089d2b2f5e06ae0b352076e08c25 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a604d10d180bf744b9210c5c39c744ba = $(`<div id="html_a604d10d180bf744b9210c5c39c744ba" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Greenwich Village</b><br>SKU: P00488<br>Price: 12.54 (baseline 13.20)<br>%Δ: -5.0 | z(MAD): -44.52<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_660e089d2b2f5e06ae0b352076e08c25.setContent(html_a604d10d180bf744b9210c5c39c744ba);
+            
+        
+
+        circle_marker_7303b9221be12bd7154aa3c10e6511a3.bindPopup(popup_660e089d2b2f5e06ae0b352076e08c25)
+        ;
+
+        
+    
+    
+            var circle_marker_a7f344de706e1a93163dd214e9ca1660 = L.circleMarker(
+                [40.72139, -73.99545],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_b02caac11fd08e5e4a7a3f8855fd2b6a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dc8becfccbd261f1322997f4c63e020f = $(`<div id="html_dc8becfccbd261f1322997f4c63e020f" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Nolita</b><br>SKU: P00627<br>Price: 2.89 (baseline 3.05)<br>%Δ: -5.2 | z(MAD): -10.79<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_b02caac11fd08e5e4a7a3f8855fd2b6a.setContent(html_dc8becfccbd261f1322997f4c63e020f);
+            
+        
+
+        circle_marker_a7f344de706e1a93163dd214e9ca1660.bindPopup(popup_b02caac11fd08e5e4a7a3f8855fd2b6a)
+        ;
+
+        
+    
+    
+            var circle_marker_c524bd61ae7654e5c6096b9aead35b87 = L.circleMarker(
+                [40.75971, -73.96616],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_4c061696c7417be1e3d78e4deb09983a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_90f72fa6a46e22688f5bf66c5af11dd7 = $(`<div id="html_90f72fa6a46e22688f5bf66c5af11dd7" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Midtown</b><br>SKU: P01311<br>Price: 7.16 (baseline 7.56)<br>%Δ: -5.3 | z(MAD): -26.98<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_4c061696c7417be1e3d78e4deb09983a.setContent(html_90f72fa6a46e22688f5bf66c5af11dd7);
+            
+        
+
+        circle_marker_c524bd61ae7654e5c6096b9aead35b87.bindPopup(popup_4c061696c7417be1e3d78e4deb09983a)
+        ;
+
+        
+    
+    
+            var circle_marker_41a2ea053f5738c9bc0c06939b416408 = L.circleMarker(
+                [40.75971, -73.96616],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_1889ab394b49a57a59a7af7d29226636 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4bb8e6143641bc46bb99ac2fa6ecb920 = $(`<div id="html_4bb8e6143641bc46bb99ac2fa6ecb920" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Midtown</b><br>SKU: P00188<br>Price: 7.61 (baseline 8.04)<br>%Δ: -5.3 | z(MAD): -29.00<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_1889ab394b49a57a59a7af7d29226636.setContent(html_4bb8e6143641bc46bb99ac2fa6ecb920);
+            
+        
+
+        circle_marker_41a2ea053f5738c9bc0c06939b416408.bindPopup(popup_1889ab394b49a57a59a7af7d29226636)
+        ;
+
+        
+    
+    
+            var circle_marker_ce8a3e9819ac1b1d342ab767aff64109 = L.circleMarker(
+                [40.7266, -73.9917],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_e0d4085b7712554ad80cd357ac3feb39 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_12a9723310c21fcee593612001ac33d9 = $(`<div id="html_12a9723310c21fcee593612001ac33d9" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - NoHo</b><br>SKU: P01176<br>Price: 3.87 (baseline 4.09)<br>%Δ: -5.4 | z(MAD): -14.84<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_e0d4085b7712554ad80cd357ac3feb39.setContent(html_12a9723310c21fcee593612001ac33d9);
+            
+        
+
+        circle_marker_ce8a3e9819ac1b1d342ab767aff64109.bindPopup(popup_e0d4085b7712554ad80cd357ac3feb39)
+        ;
+
+        
+    
+    
+            var circle_marker_a8938e488e2622e2f1c6533044fd997a = L.circleMarker(
+                [40.733037, -73.99976],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_9dc352863ec56ae5e0090f85e62929cf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5c69827302f6fc457d7e12abeccaf35a = $(`<div id="html_5c69827302f6fc457d7e12abeccaf35a" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Greenwich Village</b><br>SKU: P00206<br>Price: 2.32 (baseline 2.46)<br>%Δ: -5.7 | z(MAD): -9.44<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_9dc352863ec56ae5e0090f85e62929cf.setContent(html_5c69827302f6fc457d7e12abeccaf35a);
+            
+        
+
+        circle_marker_a8938e488e2622e2f1c6533044fd997a.bindPopup(popup_9dc352863ec56ae5e0090f85e62929cf)
+        ;
+
+        
+    
+    
+            var circle_marker_1b315fe257f437d14838309ec854d18f = L.circleMarker(
+                [40.72139, -73.99545],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_7600149a0dbd6cd526a1d54c1e58f9d3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3e239d2c8934d184cd5137a4bea44ac8 = $(`<div id="html_3e239d2c8934d184cd5137a4bea44ac8" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Nolita</b><br>SKU: P00536<br>Price: 4.74 (baseline 5.04)<br>%Δ: -6.0 | z(MAD): -20.23<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_7600149a0dbd6cd526a1d54c1e58f9d3.setContent(html_3e239d2c8934d184cd5137a4bea44ac8);
+            
+        
+
+        circle_marker_1b315fe257f437d14838309ec854d18f.bindPopup(popup_7600149a0dbd6cd526a1d54c1e58f9d3)
+        ;
+
+        
+    
+    
+            var circle_marker_938ddcceae1e38af4c09085362473fa4 = L.circleMarker(
+                [40.742352, -74.00621],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_9045d5123c40ce5d137fcdb260e24324 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_041e3ae6ce703b17bea37fd441f15bea = $(`<div id="html_041e3ae6ce703b17bea37fd441f15bea" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Chelsea</b><br>SKU: P00203<br>Price: 2.49 (baseline 2.67)<br>%Δ: -6.7 | z(MAD): -12.14<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_9045d5123c40ce5d137fcdb260e24324.setContent(html_041e3ae6ce703b17bea37fd441f15bea);
+            
+        
+
+        circle_marker_938ddcceae1e38af4c09085362473fa4.bindPopup(popup_9045d5123c40ce5d137fcdb260e24324)
+        ;
+
+        
+    
+    
+            var circle_marker_e21a07129a9983e512ec5318a96285ab = L.circleMarker(
+                [40.72139, -73.99545],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_00de357d704b84a2c5349291bb8e95b0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_43f015d1a2daef409d27b11e7ae40ddf = $(`<div id="html_43f015d1a2daef409d27b11e7ae40ddf" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Nolita</b><br>SKU: P00948<br>Price: 10.23 (baseline 10.99)<br>%Δ: -6.9 | z(MAD): -51.26<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_00de357d704b84a2c5349291bb8e95b0.setContent(html_43f015d1a2daef409d27b11e7ae40ddf);
+            
+        
+
+        circle_marker_e21a07129a9983e512ec5318a96285ab.bindPopup(popup_00de357d704b84a2c5349291bb8e95b0)
+        ;
+
+        
+    
+    
+            var circle_marker_192097fef8e48c359c39b70767a117a3 = L.circleMarker(
+                [40.7266, -73.9917],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_2feec5c6015053f139da886b8ca007f0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_11e4d15ce114a277a56381f73541be62 = $(`<div id="html_11e4d15ce114a277a56381f73541be62" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - NoHo</b><br>SKU: P00110<br>Price: 5.24 (baseline 5.65)<br>%Δ: -7.3 | z(MAD): -27.65<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_2feec5c6015053f139da886b8ca007f0.setContent(html_11e4d15ce114a277a56381f73541be62);
+            
+        
+
+        circle_marker_192097fef8e48c359c39b70767a117a3.bindPopup(popup_2feec5c6015053f139da886b8ca007f0)
+        ;
+
+        
+    
+    
+            var circle_marker_f1f4cc1975f779ac5afec1fb0f41e824 = L.circleMarker(
+                [40.733037, -73.99976],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_91d3375804c795f673b984b3cf31e26a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5ce36bd4e10752d7e72609785662ebf5 = $(`<div id="html_5ce36bd4e10752d7e72609785662ebf5" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Greenwich Village</b><br>SKU: P00462<br>Price: 3.29 (baseline 3.56)<br>%Δ: -7.6 | z(MAD): -18.21<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_91d3375804c795f673b984b3cf31e26a.setContent(html_5ce36bd4e10752d7e72609785662ebf5);
+            
+        
+
+        circle_marker_f1f4cc1975f779ac5afec1fb0f41e824.bindPopup(popup_91d3375804c795f673b984b3cf31e26a)
+        ;
+
+        
+    
+    
+            var circle_marker_72bad8d3b109b619e734f6279ab2fe8c = L.circleMarker(
+                [40.72139, -73.99545],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_985457ea13b2b2ac80cfd2b22fc2ade6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5e14deb73aaf151e88f58670545bf6ff = $(`<div id="html_5e14deb73aaf151e88f58670545bf6ff" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Nolita</b><br>SKU: P00577<br>Price: 2.98 (baseline 3.29)<br>%Δ: -9.4 | z(MAD): -20.91<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_985457ea13b2b2ac80cfd2b22fc2ade6.setContent(html_5e14deb73aaf151e88f58670545bf6ff);
+            
+        
+
+        circle_marker_72bad8d3b109b619e734f6279ab2fe8c.bindPopup(popup_985457ea13b2b2ac80cfd2b22fc2ade6)
+        ;
+
+        
+    
+    
+            var circle_marker_4b5f719098d56a7ba18e54aeb4b25de8 = L.circleMarker(
+                [40.72139, -73.99545],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_2c8f145819b1f6d794134e8d943aa24b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d758f2e1abe35645b20bd935a5ffcf6d = $(`<div id="html_d758f2e1abe35645b20bd935a5ffcf6d" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Nolita</b><br>SKU: P01046<br>Price: 10.89 (baseline 12.06)<br>%Δ: -9.7 | z(MAD): -78.92<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_2c8f145819b1f6d794134e8d943aa24b.setContent(html_d758f2e1abe35645b20bd935a5ffcf6d);
+            
+        
+
+        circle_marker_4b5f719098d56a7ba18e54aeb4b25de8.bindPopup(popup_2c8f145819b1f6d794134e8d943aa24b)
+        ;
+
+        
+    
+    
+            var circle_marker_5ddc3cba47224a546f40e6ab786f790a = L.circleMarker(
+                [40.75971, -73.96616],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_de5ad8e939c4afd7543981742551d0fd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_71d87d2ac8da4569cd5d71bc0f186ee2 = $(`<div id="html_71d87d2ac8da4569cd5d71bc0f186ee2" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Midtown</b><br>SKU: P00817<br>Price: 6.53 (baseline 7.30)<br>%Δ: -10.5 | z(MAD): -51.94<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_de5ad8e939c4afd7543981742551d0fd.setContent(html_71d87d2ac8da4569cd5d71bc0f186ee2);
+            
+        
+
+        circle_marker_5ddc3cba47224a546f40e6ab786f790a.bindPopup(popup_de5ad8e939c4afd7543981742551d0fd)
+        ;
+
+        
+    
+    
+            var circle_marker_cb2a74b204f64935917711ff3795b765 = L.circleMarker(
+                [40.7266, -73.9917],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_8e5d871db5dcca7ddd8860fd51e81aaa = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6cd93580b1925d43246ee9869bd4c1f2 = $(`<div id="html_6cd93580b1925d43246ee9869bd4c1f2" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - NoHo</b><br>SKU: P01076<br>Price: 5.93 (baseline 6.67)<br>%Δ: -11.1 | z(MAD): -49.91<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_8e5d871db5dcca7ddd8860fd51e81aaa.setContent(html_6cd93580b1925d43246ee9869bd4c1f2);
+            
+        
+
+        circle_marker_cb2a74b204f64935917711ff3795b765.bindPopup(popup_8e5d871db5dcca7ddd8860fd51e81aaa)
+        ;
+
+        
+    
+    
+            var circle_marker_eed1a43cae79f240c77daca6828fd28d = L.circleMarker(
+                [40.733037, -73.99976],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_49f6ad86f4dfa827277efd50da29aaf7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b98309a70dcea53915a741566a135a26 = $(`<div id="html_b98309a70dcea53915a741566a135a26" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Greenwich Village</b><br>SKU: P00448<br>Price: 2.70 (baseline 3.04)<br>%Δ: -11.2 | z(MAD): -22.93<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_49f6ad86f4dfa827277efd50da29aaf7.setContent(html_b98309a70dcea53915a741566a135a26);
+            
+        
+
+        circle_marker_eed1a43cae79f240c77daca6828fd28d.bindPopup(popup_49f6ad86f4dfa827277efd50da29aaf7)
+        ;
+
+        
+    
+    
+            var circle_marker_00c431d5f3b56da63f4e278bb57eac03 = L.circleMarker(
+                [40.7266, -73.9917],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_b44937d75489eb384a5a61104a43a100 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9d2526df2368481d2055ab74dde9d1b2 = $(`<div id="html_9d2526df2368481d2055ab74dde9d1b2" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - NoHo</b><br>SKU: P00029<br>Price: 2.75 (baseline 3.12)<br>%Δ: -11.9 | z(MAD): -24.96<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_b44937d75489eb384a5a61104a43a100.setContent(html_9d2526df2368481d2055ab74dde9d1b2);
+            
+        
+
+        circle_marker_00c431d5f3b56da63f4e278bb57eac03.bindPopup(popup_b44937d75489eb384a5a61104a43a100)
+        ;
+
+        
+    
+    
+            var circle_marker_5031550833fd9002ac975fb74a79b64c = L.circleMarker(
+                [40.733037, -73.99976],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_2bef1b5fb1b6b948c2abf181ffff343c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a0570f717311891a127e9b917be0f5e2 = $(`<div id="html_a0570f717311891a127e9b917be0f5e2" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Greenwich Village</b><br>SKU: P00750<br>Price: 5.66 (baseline 6.49)<br>%Δ: -12.8 | z(MAD): -55.98<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_2bef1b5fb1b6b948c2abf181ffff343c.setContent(html_a0570f717311891a127e9b917be0f5e2);
+            
+        
+
+        circle_marker_5031550833fd9002ac975fb74a79b64c.bindPopup(popup_2bef1b5fb1b6b948c2abf181ffff343c)
+        ;
+
+        
+    
+    
+            var circle_marker_a735ed718ef9cce848f80bae8df1b692 = L.circleMarker(
+                [40.742352, -74.00621],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_60f5acee0aea5ff347738d638d824472 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_21397001a9ec0e88e4785a10bdc62d8a = $(`<div id="html_21397001a9ec0e88e4785a10bdc62d8a" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Chelsea</b><br>SKU: P00462<br>Price: 3.06 (baseline 3.56)<br>%Δ: -14.0 | z(MAD): -33.72<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_60f5acee0aea5ff347738d638d824472.setContent(html_21397001a9ec0e88e4785a10bdc62d8a);
+            
+        
+
+        circle_marker_a735ed718ef9cce848f80bae8df1b692.bindPopup(popup_60f5acee0aea5ff347738d638d824472)
+        ;
+
+        
+    
+    
+            var circle_marker_d4036bc4d083dec59c4f24649d3537b5 = L.circleMarker(
+                [40.742352, -74.00621],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_a989ac118b2d781d2d9632fc99a565d8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8fbddc7e4439924de30ccdcbeb433312 = $(`<div id="html_8fbddc7e4439924de30ccdcbeb433312" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Chelsea</b><br>SKU: P00029<br>Price: 2.62 (baseline 3.12)<br>%Δ: -16.0 | z(MAD): -33.72<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_a989ac118b2d781d2d9632fc99a565d8.setContent(html_8fbddc7e4439924de30ccdcbeb433312);
+            
+        
+
+        circle_marker_d4036bc4d083dec59c4f24649d3537b5.bindPopup(popup_a989ac118b2d781d2d9632fc99a565d8)
+        ;
+
+        
+    
+    
+            var circle_marker_e11df2fa2218fcbe7f46c6f5b308cb1e = L.circleMarker(
+                [40.733037, -73.99976],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_046c59adb6a46b75760576eb25393b2d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a259b94718f04f83a9a4acf39ec28a87 = $(`<div id="html_a259b94718f04f83a9a4acf39ec28a87" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Greenwich Village</b><br>SKU: P00637<br>Price: 3.52 (baseline 4.20)<br>%Δ: -16.2 | z(MAD): -45.87<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_046c59adb6a46b75760576eb25393b2d.setContent(html_a259b94718f04f83a9a4acf39ec28a87);
+            
+        
+
+        circle_marker_e11df2fa2218fcbe7f46c6f5b308cb1e.bindPopup(popup_046c59adb6a46b75760576eb25393b2d)
+        ;
+
+        
+    
+    
+            var circle_marker_c3c92ca472308d8369a599cee52b299e = L.circleMarker(
+                [40.72139, -73.99545],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_3f3022ae17f564de92c86fe6d1fc30fc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a6dd3bfdbd116d75701ed60ab180c333 = $(`<div id="html_a6dd3bfdbd116d75701ed60ab180c333" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Nolita</b><br>SKU: P00802<br>Price: 1.64 (baseline 1.96)<br>%Δ: -16.3 | z(MAD): -21.58<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_3f3022ae17f564de92c86fe6d1fc30fc.setContent(html_a6dd3bfdbd116d75701ed60ab180c333);
+            
+        
+
+        circle_marker_c3c92ca472308d8369a599cee52b299e.bindPopup(popup_3f3022ae17f564de92c86fe6d1fc30fc)
+        ;
+
+        
+    
+    
+            var circle_marker_fa176fe17bf393e3190051ecb24d169f = L.circleMarker(
+                [40.733037, -73.99976],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_1ea4689303ff07d3f2f44d72ff0c9d7e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_aec57ca42f4546145836bd2cc3ccddf7 = $(`<div id="html_aec57ca42f4546145836bd2cc3ccddf7" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Greenwich Village</b><br>SKU: P00985<br>Price: 1.98 (baseline 2.37)<br>%Δ: -16.5 | z(MAD): -26.31<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_1ea4689303ff07d3f2f44d72ff0c9d7e.setContent(html_aec57ca42f4546145836bd2cc3ccddf7);
+            
+        
+
+        circle_marker_fa176fe17bf393e3190051ecb24d169f.bindPopup(popup_1ea4689303ff07d3f2f44d72ff0c9d7e)
+        ;
+
+        
+    
+    
+            var circle_marker_9e73e6a76dab2c1a6366733c767a8869 = L.circleMarker(
+                [40.75971, -73.96616],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_fb5939bb396ce71fe683c7df909e0fc8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3aa63900c4339150adf276d0db74ab52 = $(`<div id="html_3aa63900c4339150adf276d0db74ab52" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Midtown</b><br>SKU: P00879<br>Price: 2.23 (baseline 2.67)<br>%Δ: -16.5 | z(MAD): -29.68<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_fb5939bb396ce71fe683c7df909e0fc8.setContent(html_3aa63900c4339150adf276d0db74ab52);
+            
+        
+
+        circle_marker_9e73e6a76dab2c1a6366733c767a8869.bindPopup(popup_fb5939bb396ce71fe683c7df909e0fc8)
+        ;
+
+        
+    
+    
+            var circle_marker_46908ba22716bbf21f8473a637c96365 = L.circleMarker(
+                [40.7266, -73.9917],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_945a605dba53639464f59050d153a3d6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bfa6f0dad547f7bd32388b06a21f11a7 = $(`<div id="html_bfa6f0dad547f7bd32388b06a21f11a7" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - NoHo</b><br>SKU: P01334<br>Price: 2.35 (baseline 2.82)<br>%Δ: -16.7 | z(MAD): -31.70<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_945a605dba53639464f59050d153a3d6.setContent(html_bfa6f0dad547f7bd32388b06a21f11a7);
+            
+        
+
+        circle_marker_46908ba22716bbf21f8473a637c96365.bindPopup(popup_945a605dba53639464f59050d153a3d6)
+        ;
+
+        
+    
+    
+            var circle_marker_3f3e53c68ed2302b47ab2d3327040918 = L.circleMarker(
+                [40.75971, -73.96616],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_f02bb9a4827a498a4c6833a4125c5371 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b4ceea15c85a751cbe4761893f97dca8 = $(`<div id="html_b4ceea15c85a751cbe4761893f97dca8" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Midtown</b><br>SKU: P01213<br>Price: 3.05 (baseline 3.66)<br>%Δ: -16.7 | z(MAD): -41.14<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_f02bb9a4827a498a4c6833a4125c5371.setContent(html_b4ceea15c85a751cbe4761893f97dca8);
+            
+        
+
+        circle_marker_3f3e53c68ed2302b47ab2d3327040918.bindPopup(popup_f02bb9a4827a498a4c6833a4125c5371)
+        ;
+
+        
+    
+    
+            var circle_marker_eaba7ba08e912171f2e3d6ebb3133cdc = L.circleMarker(
+                [40.72139, -73.99545],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_3689c1b5e64ee14ebfdf7de6c1fb16e4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_96692d895a04b38e0323505b26c47b35 = $(`<div id="html_96692d895a04b38e0323505b26c47b35" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Nolita</b><br>SKU: P00084<br>Price: 5.38 (baseline 6.46)<br>%Δ: -16.7 | z(MAD): -72.85<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_3689c1b5e64ee14ebfdf7de6c1fb16e4.setContent(html_96692d895a04b38e0323505b26c47b35);
+            
+        
+
+        circle_marker_eaba7ba08e912171f2e3d6ebb3133cdc.bindPopup(popup_3689c1b5e64ee14ebfdf7de6c1fb16e4)
+        ;
+
+        
+    
+    
+            var circle_marker_828932e9976ce68791396ad2aca44b8c = L.circleMarker(
+                [40.742352, -74.00621],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_aa644e6c89e0371dbc61a76cf2ebbef8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8247d5aacdb95c1a8575382ee8002371 = $(`<div id="html_8247d5aacdb95c1a8575382ee8002371" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Chelsea</b><br>SKU: P01294<br>Price: 2.54 (baseline 3.05)<br>%Δ: -16.7 | z(MAD): -34.40<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_aa644e6c89e0371dbc61a76cf2ebbef8.setContent(html_8247d5aacdb95c1a8575382ee8002371);
+            
+        
+
+        circle_marker_828932e9976ce68791396ad2aca44b8c.bindPopup(popup_aa644e6c89e0371dbc61a76cf2ebbef8)
+        ;
+
+        
+    
+    
+            var circle_marker_257f5af83c32b8d9f8dc84bfe94110c1 = L.circleMarker(
+                [40.733037, -73.99976],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_9b3f0b99b217b5771d73f3f0721606d8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d8229e05b9f8b1312d727ce8ba26ef92 = $(`<div id="html_d8229e05b9f8b1312d727ce8ba26ef92" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Greenwich Village</b><br>SKU: P00171<br>Price: 2.40 (baseline 2.89)<br>%Δ: -17.0 | z(MAD): -33.05<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_9b3f0b99b217b5771d73f3f0721606d8.setContent(html_d8229e05b9f8b1312d727ce8ba26ef92);
+            
+        
+
+        circle_marker_257f5af83c32b8d9f8dc84bfe94110c1.bindPopup(popup_9b3f0b99b217b5771d73f3f0721606d8)
+        ;
+
+        
+    
+    
+            var circle_marker_653f51086e098e2dd2e5b228cc95b40b = L.circleMarker(
+                [40.7266, -73.9917],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_8e3406394d85099738d9ab7a8f8d2562 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_222046ebf15310e688b28dcc13b3ea01 = $(`<div id="html_222046ebf15310e688b28dcc13b3ea01" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - NoHo</b><br>SKU: P01294<br>Price: 2.50 (baseline 3.05)<br>%Δ: -18.0 | z(MAD): -37.10<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_8e3406394d85099738d9ab7a8f8d2562.setContent(html_222046ebf15310e688b28dcc13b3ea01);
+            
+        
+
+        circle_marker_653f51086e098e2dd2e5b228cc95b40b.bindPopup(popup_8e3406394d85099738d9ab7a8f8d2562)
+        ;
+
+        
+    
+    
+            var circle_marker_f127bb8e5339d9580d596fb372199aff = L.circleMarker(
+                [40.7266, -73.9917],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_78dfaa56e84a0e4aae665665f3ab5f42 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_551ae77a353eeafa544cf2b91af33598 = $(`<div id="html_551ae77a353eeafa544cf2b91af33598" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - NoHo</b><br>SKU: P00069<br>Price: 7.36 (baseline 9.14)<br>%Δ: -19.5 | z(MAD): -120.06<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_78dfaa56e84a0e4aae665665f3ab5f42.setContent(html_551ae77a353eeafa544cf2b91af33598);
+            
+        
+
+        circle_marker_f127bb8e5339d9580d596fb372199aff.bindPopup(popup_78dfaa56e84a0e4aae665665f3ab5f42)
+        ;
+
+        
+    
+    
+            var circle_marker_1dbe545fd7d3373e76b4a36d70623627 = L.circleMarker(
+                [40.72139, -73.99545],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_48b13fec2ea7302f11aa1820c6040465 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_89f46794da1b358a5c8ebf34e596af4b = $(`<div id="html_89f46794da1b358a5c8ebf34e596af4b" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Nolita</b><br>SKU: P00830<br>Price: 6.92 (baseline 8.68)<br>%Δ: -20.3 | z(MAD): -118.71<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_48b13fec2ea7302f11aa1820c6040465.setContent(html_89f46794da1b358a5c8ebf34e596af4b);
+            
+        
+
+        circle_marker_1dbe545fd7d3373e76b4a36d70623627.bindPopup(popup_48b13fec2ea7302f11aa1820c6040465)
+        ;
+
+        
+    
+    
+            var circle_marker_d915f9873e932448389e83277cc39281 = L.circleMarker(
+                [40.75971, -73.96616],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_67db6c3bb25040ed1630d23918cf5b6e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_518e1aa0087d5fe576c26a8f624d6e6d = $(`<div id="html_518e1aa0087d5fe576c26a8f624d6e6d" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Midtown</b><br>SKU: P00354<br>Price: 4.42 (baseline 5.60)<br>%Δ: -21.1 | z(MAD): -79.59<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_67db6c3bb25040ed1630d23918cf5b6e.setContent(html_518e1aa0087d5fe576c26a8f624d6e6d);
+            
+        
+
+        circle_marker_d915f9873e932448389e83277cc39281.bindPopup(popup_67db6c3bb25040ed1630d23918cf5b6e)
+        ;
+
+        
+    
+    
+            var circle_marker_ecdadfb9fd1e5b681cc365d82e0a77a3 = L.circleMarker(
+                [40.733037, -73.99976],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_c639666fbc8630451aa493516913a640 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a9e315d42ff2f7256a4cd77d9e334e26 = $(`<div id="html_a9e315d42ff2f7256a4cd77d9e334e26" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Greenwich Village</b><br>SKU: P00198<br>Price: 1.81 (baseline 2.41)<br>%Δ: -24.9 | z(MAD): -40.47<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_c639666fbc8630451aa493516913a640.setContent(html_a9e315d42ff2f7256a4cd77d9e334e26);
+            
+        
+
+        circle_marker_ecdadfb9fd1e5b681cc365d82e0a77a3.bindPopup(popup_c639666fbc8630451aa493516913a640)
+        ;
+
+        
+    
+    
+            var circle_marker_c6e781946c917c8e06390d6a8349f196 = L.circleMarker(
+                [40.72139, -73.99545],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_2c2cfd0bb17a19efef934b75caeab601 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6e0cc22ff0b9cd42935c57e323e74730 = $(`<div id="html_6e0cc22ff0b9cd42935c57e323e74730" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Nolita</b><br>SKU: P00131<br>Price: 11.43 (baseline 15.23)<br>%Δ: -25.0 | z(MAD): -256.31<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_2c2cfd0bb17a19efef934b75caeab601.setContent(html_6e0cc22ff0b9cd42935c57e323e74730);
+            
+        
+
+        circle_marker_c6e781946c917c8e06390d6a8349f196.bindPopup(popup_2c2cfd0bb17a19efef934b75caeab601)
+        ;
+
+        
+    
+    
+            var circle_marker_c7bfa39f444285b42d2a45fc78af2bf5 = L.circleMarker(
+                [40.733037, -73.99976],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_e9b05744738b9175edb9fb5d3ed9f968 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_31a89896f80a0bc6690c588c8ad53cb9 = $(`<div id="html_31a89896f80a0bc6690c588c8ad53cb9" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Greenwich Village</b><br>SKU: P00790<br>Price: 4.38 (baseline 5.84)<br>%Δ: -25.0 | z(MAD): -98.48<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_e9b05744738b9175edb9fb5d3ed9f968.setContent(html_31a89896f80a0bc6690c588c8ad53cb9);
+            
+        
+
+        circle_marker_c7bfa39f444285b42d2a45fc78af2bf5.bindPopup(popup_e9b05744738b9175edb9fb5d3ed9f968)
+        ;
+
+        
+    
+    
+            var circle_marker_09737491529e5419ead975ca8bad3097 = L.circleMarker(
+                [40.7266, -73.9917],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_db02ad1d6c80a83bb8112fdc51b874cb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0d19b4cd53a156e5851208d472fb01fc = $(`<div id="html_0d19b4cd53a156e5851208d472fb01fc" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - NoHo</b><br>SKU: P00188<br>Price: 5.87 (baseline 8.04)<br>%Δ: -27.0 | z(MAD): -146.36<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_db02ad1d6c80a83bb8112fdc51b874cb.setContent(html_0d19b4cd53a156e5851208d472fb01fc);
+            
+        
+
+        circle_marker_09737491529e5419ead975ca8bad3097.bindPopup(popup_db02ad1d6c80a83bb8112fdc51b874cb)
+        ;
+
+        
+    
+    
+            var circle_marker_a36bf3fc4771b15677710a96898ce1e9 = L.circleMarker(
+                [40.742352, -74.00621],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_3a0f137c0ef4bfa1d81dc0404effa905 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bc76cb696c8a4f4c7b5cc0ca66c91baa = $(`<div id="html_bc76cb696c8a4f4c7b5cc0ca66c91baa" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Chelsea</b><br>SKU: P00884<br>Price: 3.93 (baseline 5.45)<br>%Δ: -27.9 | z(MAD): -102.52<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_3a0f137c0ef4bfa1d81dc0404effa905.setContent(html_bc76cb696c8a4f4c7b5cc0ca66c91baa);
+            
+        
+
+        circle_marker_a36bf3fc4771b15677710a96898ce1e9.bindPopup(popup_3a0f137c0ef4bfa1d81dc0404effa905)
+        ;
+
+        
+    
+    
+            var circle_marker_53307b45bdd050ae24045aa9fdc38f6f = L.circleMarker(
+                [40.7266, -73.9917],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_3db22c55bfc96605a558ec9c805dfd1d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cf90a2bb966cfa24b817006cbdb88f96 = $(`<div id="html_cf90a2bb966cfa24b817006cbdb88f96" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - NoHo</b><br>SKU: P00945<br>Price: 2.91 (baseline 4.04)<br>%Δ: -28.0 | z(MAD): -76.22<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_3db22c55bfc96605a558ec9c805dfd1d.setContent(html_cf90a2bb966cfa24b817006cbdb88f96);
+            
+        
+
+        circle_marker_53307b45bdd050ae24045aa9fdc38f6f.bindPopup(popup_3db22c55bfc96605a558ec9c805dfd1d)
+        ;
+
+        
+    
+    
+            var circle_marker_8c94b8d39f614cb6476cc47f9e6dc692 = L.circleMarker(
+                [40.7266, -73.9917],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_31a6317b7a831c0f9fe24ec71d552084 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2574836f1d0b4ef25f0ce343e1e256d7 = $(`<div id="html_2574836f1d0b4ef25f0ce343e1e256d7" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - NoHo</b><br>SKU: P00536<br>Price: 3.59 (baseline 5.04)<br>%Δ: -28.8 | z(MAD): -97.80<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_31a6317b7a831c0f9fe24ec71d552084.setContent(html_2574836f1d0b4ef25f0ce343e1e256d7);
+            
+        
+
+        circle_marker_8c94b8d39f614cb6476cc47f9e6dc692.bindPopup(popup_31a6317b7a831c0f9fe24ec71d552084)
+        ;
+
+        
+    
+    
+            var circle_marker_4cf64fbe50d0662086232776c4ff2579 = L.circleMarker(
+                [40.7266, -73.9917],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_366ba72fc1a523121f1a9a44a74350e7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0624124273f7640db6c93a9860ab7635 = $(`<div id="html_0624124273f7640db6c93a9860ab7635" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - NoHo</b><br>SKU: P00462<br>Price: 2.49 (baseline 3.56)<br>%Δ: -30.1 | z(MAD): -72.17<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_366ba72fc1a523121f1a9a44a74350e7.setContent(html_0624124273f7640db6c93a9860ab7635);
+            
+        
+
+        circle_marker_4cf64fbe50d0662086232776c4ff2579.bindPopup(popup_366ba72fc1a523121f1a9a44a74350e7)
+        ;
+
+        
+    
+    
+            var circle_marker_9efee2c203f22ab5de20321df01e8e25 = L.circleMarker(
+                [40.7266, -73.9917],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_b68ad03691f69b8712eed0af3fa72c11 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_40d186f2d2093139a5028b3398f670cf = $(`<div id="html_40d186f2d2093139a5028b3398f670cf" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - NoHo</b><br>SKU: P00185<br>Price: 2.58 (baseline 3.69)<br>%Δ: -30.1 | z(MAD): -74.87<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_b68ad03691f69b8712eed0af3fa72c11.setContent(html_40d186f2d2093139a5028b3398f670cf);
+            
+        
+
+        circle_marker_9efee2c203f22ab5de20321df01e8e25.bindPopup(popup_b68ad03691f69b8712eed0af3fa72c11)
+        ;
+
+        
+    
+    
+            var circle_marker_db3ac492d8903d3ce7fcebee2ec83b54 = L.circleMarker(
+                [40.742352, -74.00621],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_55f21ece20acd33379c45ae252b699d3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d5166e610333a306d25def8fce8e18fe = $(`<div id="html_d5166e610333a306d25def8fce8e18fe" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Chelsea</b><br>SKU: P00185<br>Price: 2.58 (baseline 3.69)<br>%Δ: -30.1 | z(MAD): -74.87<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_55f21ece20acd33379c45ae252b699d3.setContent(html_d5166e610333a306d25def8fce8e18fe);
+            
+        
+
+        circle_marker_db3ac492d8903d3ce7fcebee2ec83b54.bindPopup(popup_55f21ece20acd33379c45ae252b699d3)
+        ;
+
+        
+    
+    
+            var circle_marker_d3d7cc6d26fa726299c304aa992238bd = L.circleMarker(
+                [40.733037, -73.99976],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_c6760a8db51056b274d736a1d94dad07 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2fcd83422acc84aff38fd84123f0283a = $(`<div id="html_2fcd83422acc84aff38fd84123f0283a" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Greenwich Village</b><br>SKU: P00819<br>Price: 3.23 (baseline 4.62)<br>%Δ: -30.1 | z(MAD): -93.75<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_c6760a8db51056b274d736a1d94dad07.setContent(html_2fcd83422acc84aff38fd84123f0283a);
+            
+        
+
+        circle_marker_d3d7cc6d26fa726299c304aa992238bd.bindPopup(popup_c6760a8db51056b274d736a1d94dad07)
+        ;
+
+        
+    
+    
+            var circle_marker_dea1e7a0cbc573547ee689b221defe16 = L.circleMarker(
+                [40.75971, -73.96616],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_ec8783388836a0279b06472a5833de61 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_11bc45b5cac4f114c481fc6e6062469b = $(`<div id="html_11bc45b5cac4f114c481fc6e6062469b" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Midtown</b><br>SKU: P00150<br>Price: 1.99 (baseline 2.97)<br>%Δ: -33.0 | z(MAD): -66.10<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_ec8783388836a0279b06472a5833de61.setContent(html_11bc45b5cac4f114c481fc6e6062469b);
+            
+        
+
+        circle_marker_dea1e7a0cbc573547ee689b221defe16.bindPopup(popup_ec8783388836a0279b06472a5833de61)
+        ;
+
+        
+    
+    
+            var circle_marker_18610b072ca5a7c2c7d47f7fde775f94 = L.circleMarker(
+                [40.7266, -73.9917],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_76ff0af14b399800141c7c471afe13f9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cdfac35d413d55d09fc09d64e16a31f9 = $(`<div id="html_cdfac35d413d55d09fc09d64e16a31f9" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - NoHo</b><br>SKU: P00203<br>Price: 1.78 (baseline 2.67)<br>%Δ: -33.3 | z(MAD): -60.03<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_76ff0af14b399800141c7c471afe13f9.setContent(html_cdfac35d413d55d09fc09d64e16a31f9);
+            
+        
+
+        circle_marker_18610b072ca5a7c2c7d47f7fde775f94.bindPopup(popup_76ff0af14b399800141c7c471afe13f9)
+        ;
+
+        
+    
+    
+            var circle_marker_c4a5dd965843eec1d8f006ae0e6a9e7e = L.circleMarker(
+                [40.733037, -73.99976],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_c78a755eb280e0e804cc017a2f9e8c0f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_94003cd471ef32d7ca8c6046da5d5ce8 = $(`<div id="html_94003cd471ef32d7ca8c6046da5d5ce8" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Greenwich Village</b><br>SKU: P01073<br>Price: 1.96 (baseline 2.94)<br>%Δ: -33.3 | z(MAD): -66.10<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_c78a755eb280e0e804cc017a2f9e8c0f.setContent(html_94003cd471ef32d7ca8c6046da5d5ce8);
+            
+        
+
+        circle_marker_c4a5dd965843eec1d8f006ae0e6a9e7e.bindPopup(popup_c78a755eb280e0e804cc017a2f9e8c0f)
+        ;
+
+        
+    
+    
+            var circle_marker_9d334981a8803642a022b7848715c3fc = L.circleMarker(
+                [40.75971, -73.96616],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_f494a6d847fa4a0909cf75698ecaa609 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2697101ef33a914869723e9a2b508ea1 = $(`<div id="html_2697101ef33a914869723e9a2b508ea1" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Midtown</b><br>SKU: P01294<br>Price: 2.01 (baseline 3.05)<br>%Δ: -34.1 | z(MAD): -70.15<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_f494a6d847fa4a0909cf75698ecaa609.setContent(html_2697101ef33a914869723e9a2b508ea1);
+            
+        
+
+        circle_marker_9d334981a8803642a022b7848715c3fc.bindPopup(popup_f494a6d847fa4a0909cf75698ecaa609)
+        ;
+
+        
+    
+    
+            var circle_marker_5d7468761b6507e7e325ab5e6c0d036b = L.circleMarker(
+                [40.742352, -74.00621],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_42a640f1b3345a50905336e6c1ec13df = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3cbd554d28cfee1322b4dac88bcbe4e8 = $(`<div id="html_3cbd554d28cfee1322b4dac88bcbe4e8" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Chelsea</b><br>SKU: P01087<br>Price: 1.17 (baseline 1.85)<br>%Δ: -36.8 | z(MAD): -45.87<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_42a640f1b3345a50905336e6c1ec13df.setContent(html_3cbd554d28cfee1322b4dac88bcbe4e8);
+            
+        
+
+        circle_marker_5d7468761b6507e7e325ab5e6c0d036b.bindPopup(popup_42a640f1b3345a50905336e6c1ec13df)
+        ;
+
+        
+    
+    
+            var circle_marker_6f918b4380484efa4568c768a45ac229 = L.circleMarker(
+                [40.742352, -74.00621],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_ba4059dfb946f0e694a297d0d6540c77 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1971e042b5ccb584521fd9344884863e = $(`<div id="html_1971e042b5ccb584521fd9344884863e" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Chelsea</b><br>SKU: P00527<br>Price: 2.12 (baseline 3.53)<br>%Δ: -39.9 | z(MAD): -95.10<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_ba4059dfb946f0e694a297d0d6540c77.setContent(html_1971e042b5ccb584521fd9344884863e);
+            
+        
+
+        circle_marker_6f918b4380484efa4568c768a45ac229.bindPopup(popup_ba4059dfb946f0e694a297d0d6540c77)
+        ;
+
+        
+    
+    
+            var circle_marker_aa4ce0104c16c03c49de44d905680168 = L.circleMarker(
+                [40.742352, -74.00621],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_c3a2a928bd536d85a374c55a07059b31 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_36e680dc4c2444542258234b77d5caa0 = $(`<div id="html_36e680dc4c2444542258234b77d5caa0" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Chelsea</b><br>SKU: P00188<br>Price: 4.76 (baseline 8.04)<br>%Δ: -40.8 | z(MAD): -221.23<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_c3a2a928bd536d85a374c55a07059b31.setContent(html_36e680dc4c2444542258234b77d5caa0);
+            
+        
+
+        circle_marker_aa4ce0104c16c03c49de44d905680168.bindPopup(popup_c3a2a928bd536d85a374c55a07059b31)
+        ;
+
+        
+    
+    
+            var circle_marker_05e5e5ffab1b01d39494db6ca070b0bf = L.circleMarker(
+                [40.75971, -73.96616],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_5c263e897cdc5ab6ab9a4e0374f61cee = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9d6fb7ca06faad8f01fe6029db9d31dd = $(`<div id="html_9d6fb7ca06faad8f01fe6029db9d31dd" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Midtown</b><br>SKU: P00918<br>Price: 5.08 (baseline 9.17)<br>%Δ: -44.6 | z(MAD): -275.87<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_5c263e897cdc5ab6ab9a4e0374f61cee.setContent(html_9d6fb7ca06faad8f01fe6029db9d31dd);
+            
+        
+
+        circle_marker_05e5e5ffab1b01d39494db6ca070b0bf.bindPopup(popup_5c263e897cdc5ab6ab9a4e0374f61cee)
+        ;
+
+        
+    
+    
+            var circle_marker_befd33e7185813e01d5bcf550718c459 = L.circleMarker(
+                [40.733037, -73.99976],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_78dade5af049d348ba268cfd754cad6c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9aac26f59f2128130bd6e5a9e177c53c = $(`<div id="html_9aac26f59f2128130bd6e5a9e177c53c" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Greenwich Village</b><br>SKU: P00714<br>Price: 2.33 (baseline 4.66)<br>%Δ: -50.0 | z(MAD): -157.16<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_78dade5af049d348ba268cfd754cad6c.setContent(html_9aac26f59f2128130bd6e5a9e177c53c);
+            
+        
+
+        circle_marker_befd33e7185813e01d5bcf550718c459.bindPopup(popup_78dade5af049d348ba268cfd754cad6c)
+        ;
+
+        
+    
+    
+            var circle_marker_c3577f31f4f6a67558168581fba58c1b = L.circleMarker(
+                [40.7266, -73.9917],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_25b831b5af570dd81c81cfb808f6bf38 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3036db49e3809f82f7ef61a2627fbd77 = $(`<div id="html_3036db49e3809f82f7ef61a2627fbd77" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - NoHo</b><br>SKU: P01339<br>Price: 1.59 (baseline 3.19)<br>%Δ: -50.2 | z(MAD): -107.92<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_25b831b5af570dd81c81cfb808f6bf38.setContent(html_3036db49e3809f82f7ef61a2627fbd77);
+            
+        
+
+        circle_marker_c3577f31f4f6a67558168581fba58c1b.bindPopup(popup_25b831b5af570dd81c81cfb808f6bf38)
+        ;
+
+        
+    
+    
+            var circle_marker_9e22d07187946ae6784952f3adb81b78 = L.circleMarker(
+                [40.7266, -73.9917],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_9045051d3cf5649127b895a56914547b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0ff7ad704525cb5892aa3f85031b1481 = $(`<div id="html_0ff7ad704525cb5892aa3f85031b1481" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - NoHo</b><br>SKU: P01099<br>Price: 4.99 (baseline 10.68)<br>%Δ: -53.3 | z(MAD): -383.79<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_9045051d3cf5649127b895a56914547b.setContent(html_0ff7ad704525cb5892aa3f85031b1481);
+            
+        
+
+        circle_marker_9e22d07187946ae6784952f3adb81b78.bindPopup(popup_9045051d3cf5649127b895a56914547b)
+        ;
+
+        
+    
+    
+            var circle_marker_8b5be18afca921f4defd30aba5f5c654 = L.circleMarker(
+                [40.733037, -73.99976],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_6d30b4e39f419efd259315bd6db180b4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_122753e6a97457834e41fcdece58cae4 = $(`<div id="html_122753e6a97457834e41fcdece58cae4" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Greenwich Village</b><br>SKU: P00644<br>Price: 0.99 (baseline 2.70)<br>%Δ: -63.3 | z(MAD): -115.34<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_6d30b4e39f419efd259315bd6db180b4.setContent(html_122753e6a97457834e41fcdece58cae4);
+            
+        
+
+        circle_marker_8b5be18afca921f4defd30aba5f5c654.bindPopup(popup_6d30b4e39f419efd259315bd6db180b4)
+        ;
+
+        
+    
+    
+            var circle_marker_882bd52faa5fcb7be3f23bfe8a98e64b = L.circleMarker(
+                [40.733037, -73.99976],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_48df4308c2f5a208873932cbc1d335fa);
+        
+    
+        var popup_594682f0380b9eca38cb135e41f8ad19 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e652cfd33a0c6b3eaeabc282d081e87b = $(`<div id="html_e652cfd33a0c6b3eaeabc282d081e87b" style="width: 100.0%; height: 100.0%;"><b>Mancino Market - Greenwich Village</b><br>SKU: P01313<br>Price: 0.49 (baseline 3.23)<br>%Δ: -84.8 | z(MAD): -184.81<br>Precip 24h: 60.0 mm | Exposed: True<br>Flagged: True</div>`)[0];
+                popup_594682f0380b9eca38cb135e41f8ad19.setContent(html_e652cfd33a0c6b3eaeabc282d081e87b);
+            
+        
+
+        circle_marker_882bd52faa5fcb7be3f23bfe8a98e64b.bindPopup(popup_594682f0380b9eca38cb135e41f8ad19)
+        ;
+
+        
+    
+</script>
+</html>

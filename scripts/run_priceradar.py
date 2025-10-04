@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-import argparse, os, yaml
+import argparse, os, sys, yaml
+
+# Always prefer local src/ for imports
+here = os.path.dirname(__file__)
+sys.path.insert(0, os.path.normpath(os.path.join(here, "..", "src")))
+
 from priceradar.cli import main as cli_main
 
 def expand_env_vars_in_dict(d):

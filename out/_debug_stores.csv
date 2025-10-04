@@ -1,0 +1,6 @@
+store_id,store_name,latitude,longitude,geometry,precip_mm_24h
+1,Mancino Market - Midtown,40.75971,-73.96616,POINT (-73.96616 40.75971),60.0
+2,Mancino Market - NoHo,40.7266,-73.9917,POINT (-73.9917 40.7266),60.0
+3,Mancino Market - Chelsea,40.742352,-74.00621,POINT (-74.00621 40.742352),60.0
+4,Mancino Market - Greenwich Village,40.733037,-73.99976,POINT (-73.99976 40.733037),60.0
+5,Mancino Market - Nolita,40.72139,-73.99545,POINT (-73.99545 40.72139),60.0
