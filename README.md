@@ -2,6 +2,7 @@
 **Prototype 1: Storm - Price Anomaly Radar**
 
 NASA Space Apps Challenge
+
 School of Professional Studies
 New York University
 October 3rd, 2025
@@ -236,3 +237,10 @@ PY
 
 ## License
 MIT
+
+---
+
+## Contact
+Prof. Jose Mendoza
+New York University
+jose.mendoza@nyu.edu
