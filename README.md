@@ -1,5 +1,5 @@
 # NASA PriceRadar
-**Prototype 1: Storm → Price Anomaly Radar**
+**Prototype 1: Storm - Price Anomaly Radar**
 
 NASA Space Apps Challenge
 School of Professional Studies
