@@ -1,12 +1,14 @@
-# Example config for NYC demo
-stores_csv: "${MANCINO_PATH}/data/stores/stores.csv"
-prices_csv: "${MANCINO_PATH}/data/prices/daily_prices.csv"
-event_start: "2025-09-27"
-event_end: "2025-10-02"
+stores_csv: "https://raw.githubusercontent.com/jrmst102/mancino/refs/heads/main/data/v1_2025-09-21/stores.csv"
+prices_csv: "https://raw.githubusercontent.com/jrmst102/mancino/refs/heads/main/data/v1_2025-09-21/daily_prices.csv"
+
+event_start: "2025-08-21"   # inside your data window
+event_end:   "2025-08-24"   # last available date
+
 imerg_path: "data/imerg_24h_accum.tif"
-baseline_days: 28
+
+baseline_days: 28           # baseline = 2025-07-24 .. 2025-08-20 (covered by your data)
 precipitation_threshold_mm_24h: 50.0
-outdir: "out"
 alpha_zmad: 4.0
 beta_pct: 0.25
 crs_epsg: 4326
+outdir: "out"
